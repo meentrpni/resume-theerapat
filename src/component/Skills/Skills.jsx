@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import {FaSquareJs, FaReact, FaHtml5, FaCss3Alt,  FaGitAlt, FaGithub, FaDatabase,FaWordpress    } from 'react-icons/fa6'
+import {FaSquareJs, FaReact, FaHtml5, FaCss3Alt, FaGithub, FaDatabase,FaWordpress    } from 'react-icons/fa6'
 import { BsFiletypeSql } from "react-icons/bs";
 
 function Skills() {
