@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Information.module.css'
-import { FaFacebook, FaLine, FaLocationDot } from "react-icons/fa";
+import { FaFacebook, FaLine} from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { BsTelephone } from "react-icons/bs";
 import { CiMail } from "react-icons/ci";

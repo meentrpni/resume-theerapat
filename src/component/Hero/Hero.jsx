@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Hero.module.css'
-import Tilt from 'react-parallax-tilt';
+import Tilt from "react-parallax-tilt";
 import { TypeAnimation } from 'react-type-animation';
 function Hero() {
   return (
