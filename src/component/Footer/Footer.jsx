@@ -6,7 +6,7 @@ import { BsTelephone } from "react-icons/bs";
 import { CiMail } from "react-icons/ci";
 function Footer() {
   return (
-        <footer >
+        <footer className={styles.footer} >
             <p>Copyright © 2025. All Rights Reserved.</p>
             <ul>
               <li><a href="tel:090-947-4165"><BsTelephone/><span>090-947-4165</span></a></li>
