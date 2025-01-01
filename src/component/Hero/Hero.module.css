@@ -1,0 +1,98 @@
+.hero_wrapper{
+    height: 450px;
+    overflow: hidden;
+    & .container{
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    & .hero_con{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 85px;
+        & .hero_info{
+            width: 60%;
+        }
+        & .text_1{
+            font-size: 32px;
+            
+        }
+        & .text_2{
+            font-size: 64px;
+            font-weight: bold;
+            color: #000;
+            margin-top: 15px;
+        }
+        & .text_3{
+            font-size: 32px;
+            margin-top: 15px;
+        }
+        & .text_4{
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        & .hero_img{
+             width: 300px;
+             height: 300px;
+             border-radius: 100%;
+             background-image: url("img/meen.jpg");
+             background-size: cover;
+             background-position: center;  
+             margin-right: 120px;
+        }
+    }
+}
+
+@media screen and (max-width:431px) {
+    .hero_wrapper{
+        height: auto;
+        
+        & .container{
+            max-width: 100%; 
+        }
+    
+        & .hero_con{
+            flex-direction: column-reverse;
+            margin-top: 30px;
+            & .hero_info{
+                width: 100%;
+                padding: 20px;
+            }
+            & .text_2{
+                font-size: 48px;
+                
+            }
+            & .text_3{
+                font-size: 26px;
+                
+            }
+            & .hero_img{
+                margin: auto;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:1024px) and (min-width:431px) {
+    .hero_wrapper{
+        height: auto;
+        & .hero_con{
+            margin-top: 30px;
+            padding: 40px;
+            & .hero_info{
+                width: 80%;
+            }
+             
+            & .hero_img{
+                 width: 300px;
+                 height: 300px;
+                 border-radius: 100%;
+                 background-image: url("img/meen.jpg");
+                 background-size: cover;
+                 background-position: center;  
+                 margin-right: 0;
+            }
+        }
+    }
+    
+}

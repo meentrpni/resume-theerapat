@@ -1,0 +1,48 @@
+.inf_con{
+    height: 250px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    & .inf_title{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    & .inf_list{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-top: 40px;
+
+        & li{
+            margin:0 20px;
+            
+            & a{
+                text-decoration: none;
+                color: #fff;
+            }
+            & svg{
+                width: 40px;
+                height: 40px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .inf_con{
+        height: auto;
+
+        & .inf_title{
+            margin-top: 40px;
+            font-size: 30px;
+        }
+        & .inf_list{
+            flex-direction: column;
+    
+            & li{
+                margin:20px;
+            }
+        }
+    }
+}
