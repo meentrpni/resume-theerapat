@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Footer.module.css'
-import { FaFacebook,FaLine    } from "react-icons/fa6";
+import { FaFacebook} from "react-icons/fa";
+import { FaLine } from "react-icons/fa6";
 import { BsTelephone } from "react-icons/bs";
 import { CiMail } from "react-icons/ci";
 function Footer() {
