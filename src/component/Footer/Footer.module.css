@@ -1,4 +1,4 @@
-.footer{
+.footer_con{
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width:768px) {
-    footer{
+    .footer_con{
         flex-direction: column-reverse;
         & p{
             margin: 20px auto 0;
