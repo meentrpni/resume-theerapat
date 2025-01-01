@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Hero.module.css'
-import { FaFacebook,FaLine  } from "react-icons/fa6";
 import Tilt from 'react-parallax-tilt';
 import { TypeAnimation } from 'react-type-animation';
 function Hero() {
