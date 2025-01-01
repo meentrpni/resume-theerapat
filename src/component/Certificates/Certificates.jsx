@@ -129,7 +129,7 @@ function Certificate() {
             </div>
         </div>
     
-        </div>
+        </div> 
   )
 }
 
