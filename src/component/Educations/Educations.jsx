@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Educations.module.css'
+import transcript from './transcript.pdf'
 function Educations() {
   return (
    <div className={styles.edt_con}>
@@ -8,6 +9,7 @@ function Educations() {
            <div className={styles.edt_items}>
                <h4>Kasetsart University, Sriracha Campus</h4>
                <p><strong>2015 - 2018</strong> Bachelor's Degree in Computer Science</p>
+               <a href={transcript} target="_blank">Transcript</a>
            </div>
            <div className={styles.edt_items}>  
                <h4>Sriracha School</h4>
