@@ -4,7 +4,9 @@
     padding: 20px;
     background: #000000;
     color: #fff;
-
+    & p{
+        font-size: 12px;
+    }
     & ul{
         display: flex;
         list-style: none;
@@ -17,6 +19,7 @@
                 display: flex;
                 align-items: center;
                 text-decoration: none;
+                font-size: 12px;
             & svg{
                 color: #fff;
                 width: 20px;
